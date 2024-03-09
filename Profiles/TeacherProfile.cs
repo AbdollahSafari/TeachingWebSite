@@ -1,6 +1,12 @@
-﻿namespace TeachingWebSite.Profiles
+﻿using AutoMapper;
+
+namespace TeachingWebSite.Profiles;
+
+public class TeacherProfile : Profile
 {
-    public class TeacherProfile
+    public TeacherProfile()
     {
+        //Source,Destination
+        //CreateMap<>()
     }
 }
