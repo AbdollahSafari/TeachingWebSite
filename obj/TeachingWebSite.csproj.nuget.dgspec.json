@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abed\\source\\repos\\TeachingWebSite\\TeachingWebSite.csproj": {}
+    "C:\\Users\\Abed\\Documents\\GitHub\\TeachingWebSite\\TeachingWebSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abed\\source\\repos\\TeachingWebSite\\TeachingWebSite.csproj": {
+    "C:\\Users\\Abed\\Documents\\GitHub\\TeachingWebSite\\TeachingWebSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abed\\source\\repos\\TeachingWebSite\\TeachingWebSite.csproj",
+        "projectUniqueName": "C:\\Users\\Abed\\Documents\\GitHub\\TeachingWebSite\\TeachingWebSite.csproj",
         "projectName": "TeachingWebSite",
-        "projectPath": "C:\\Users\\Abed\\source\\repos\\TeachingWebSite\\TeachingWebSite.csproj",
+        "projectPath": "C:\\Users\\Abed\\Documents\\GitHub\\TeachingWebSite\\TeachingWebSite.csproj",
         "packagesPath": "C:\\Users\\Abed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abed\\source\\repos\\TeachingWebSite\\obj\\",
+        "outputPath": "C:\\Users\\Abed\\Documents\\GitHub\\TeachingWebSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,9 +54,17 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
