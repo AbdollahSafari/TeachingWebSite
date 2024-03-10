@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace TeachingWebSite.MapperProfiles;
+namespace TeachingWebSite.Mapper.Profiles;
 
 public class TeacherMapperProfile : Profile
 {
