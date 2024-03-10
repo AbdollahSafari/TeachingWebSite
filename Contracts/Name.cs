@@ -1,6 +1,6 @@
 ﻿namespace TeachingWebSite.Contracts;
 
-public abstract class Name
+public class Name
 {
     public string NamePrefix { get; set; }
     public string FirstName { get; set; }
