@@ -13,9 +13,15 @@ public class AddProductDtoValidator : AbstractValidator<AddTeacherDto>
 {
     public AddProductDtoValidator()
     {
-        RuleFor(x => x.Name)
+        RuleFor(x => x.Name.FirstName)
             .NotNull()
             .NotEmpty()
-            .WithMessage("Please enter valid name!");
+            .MinimumLength(4)
+            .WithMessage("Please enter valid first name!");
+        RuleFor(x => x.Name.LastName)
+            .NotNull()
+            .NotEmpty()
+            .MinimumLength(4)
+            .WithMessage("Please enter valid last name!");
     }
 }
